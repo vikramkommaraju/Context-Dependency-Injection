@@ -1,4 +1,4 @@
-package vikram.javaee.cdi;
+package github.vikram.cdi;
 
 
 import java.util.logging.Logger;

@@ -1,4 +1,4 @@
-package vikram.javaee.cdi;
+package github.vikram.cdi;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

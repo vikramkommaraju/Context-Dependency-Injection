@@ -1,18 +1,20 @@
-package vikram.javaee.cdi;
+package github.vikram.cdi;
 
 import java.util.logging.Logger;
 
 import javax.inject.Inject;
 
-@EightDigits
-public class IssnGenerator implements NumberGenerator {
+
+
+@ThirteenDigits
+public class IsbnGenerator implements NumberGenerator {
 
 	@Inject
 	private Logger log;
 	
 	public String generateNumber() {
 		log.info("Generating ISBN...");
-		String number = "8-"+Math.random();
+		String number = "13-"+Math.random();
 		log.info("Generated: " + number);
 		return (number);
 	}

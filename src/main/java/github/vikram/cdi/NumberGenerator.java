@@ -1,4 +1,4 @@
-package vikram.javaee.cdi;
+package github.vikram.cdi;
 
 public interface NumberGenerator {
 	
