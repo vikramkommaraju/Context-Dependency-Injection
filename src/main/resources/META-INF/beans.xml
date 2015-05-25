@@ -4,11 +4,11 @@
        version="1.1" bean-discovery-mode="all">
 
    <interceptors>
-   <class>github.vikram.cdi.LoggingInterceptor</class>
+   <class>github.vikram.javaee.cdi.LoggingInterceptor</class>
    </interceptors>
    
    <alternatives>
-   <class>github.vikram.cdi.MockGenerator</class>
+   <class>github.vikram.javaee.cdi.MockGenerator</class>
    </alternatives>
 
 </beans>

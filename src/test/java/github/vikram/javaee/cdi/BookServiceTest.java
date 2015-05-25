@@ -1,7 +1,7 @@
-package github.vikram.cdi;
+package github.vikram.javaee.cdi;
 
-import github.vikram.cdi.Book;
-import github.vikram.cdi.BookService;
+import github.vikram.javaee.cdi.Book;
+import github.vikram.javaee.cdi.BookService;
 
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;

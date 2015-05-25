@@ -1,12 +1,13 @@
-package github.vikram.cdi;
+package github.vikram.javaee.cdi;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import javax.inject.Qualifier;
+import javax.interceptor.InterceptorBinding;
 
-@Qualifier
+
+@InterceptorBinding
 @Retention(value=RetentionPolicy.RUNTIME)
-public @interface EightDigits {
+public @interface Loggable {
 
 }
